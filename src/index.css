@@ -4,8 +4,10 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border border-gray-300; /* ou qualquer outra cor */
   }
+}
+
   body {
     @apply bg-galaxy text-white font-sans;
     font-family: 'Inter', sans-serif;
